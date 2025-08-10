@@ -1,4 +1,4 @@
-echo 'Checking for lintin errors, before commiting...'
+echo 'Checking for linting errors, before commiting...'
 bun run lint:fix ||
 (echo 'Linting failed... Please fix them before commiting' && exit 1)
 
